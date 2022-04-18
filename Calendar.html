@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+<html>
+     <!--    formal header   -->  
+    
+    <head>
+        <meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Calendar</title>
+        
+        <meta name="description" content="A Calendar">
+        
+        <link rel="stylesheet" href="calendar.css">
+        
+    </head>
+    
+    
+    <body>
+
+        
+       
+      <!--   event    -->      
+        <div class="one">Add Events</div>
+        
+         <!--  form begins     -->  
+        <form >
+            
+            
+             <!--  div/ class that holds instructions about labels and input styling   --> 
+            <div class ="two">
+                
+  <label class ="alpha" for="birthday">Add A Birthday</label><br>
+            
+  <input id = "e" class ="alpha" type="date" name="party" min="1985-04-01" max="2030-04-30" ><br>
+                
+                <label class ="alpha" for="guest">How many guest?</label><br>
+            
+                <input id = "em" class ="alpha" type="number" id="G" name="party" min="1" max="100"><br>
+        
+                
+                <div class="k">
+                    
+  <label class ="delta" for="reminder">Add A Reminder</label><br>
+            
+  <input id = "emp" class ="delta" type="date" name="party" min="20-04-01" max="2017-04-30" ><br>
+                
+                <input id = "empt" class ="delta" type="text"  name="party" placeholder="Write note..."><br>
+                    
+                </div>
+                    
+                
+                    <div class="l">
+  <label class ="sigma" for="appointment">Add An Appointment</label><br>
+            
+  <input id = "empty" class ="sigma" type="date" name="party" min="20-04-01" max="2017-04-30" ><br>                
+                <input id = "emptyOut" class ="sigma" type="time"  name="party"  min="09:00" max="18:00" >
+                        
+                </div>      
+                
+                
+                </div>
+            <br > <input id = "sub" type="submit">
+                     
+</form> <br > <br > <br > <br > <br > <br > <br > <br > <br > <br > 
+    
+         <div id = "myCalendar"> Calendar </div>
+        
+   <script src="calendar.js"></script>
+    </body>
+    
+    
+</html>
